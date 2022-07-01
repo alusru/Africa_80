@@ -1,14 +1,18 @@
-import Layout from '../components/Layout';
+import Layout from "../components/Layout";
+import Mini from "../components/mini_slider";
+import MainEvent from "../components/Events/eventParent";
+import Subscribe from "../components/contact/subscribe";
 
-const EventsPage = () =>{
-	return (
-		<Layout>
-			<div className="content">
-				<h2>EventsPage Component</h2>
-			</div>		
-		</Layout>
-	
-	)
-}
+const EventsPage = () => {
+  return (
+    <Layout>
+      <div className="content">
+        <Mini />
+        <MainEvent />
+        <Subscribe />
+      </div>
+    </Layout>
+  );
+};
 
 export default EventsPage;

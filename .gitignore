@@ -2,3 +2,5 @@
 node_modules/
 
 africa_80/
+
+\.next/
